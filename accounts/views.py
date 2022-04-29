@@ -15,8 +15,8 @@ from twilio.rest import Client
 
 def send_otp(mobile , otp):
     print("FUNCTION CALLED")
-    account_sid = 'AC714e55e46838412754d9ce598dc2b29f' 
-    auth_token = 'd6c12713d6a807302f3362918124e149'
+    account_sid = 'Please Add here' 
+    auth_token = 'Please Add here'
     client = Client(account_sid, auth_token) 
     message = client.messages.create(
         body = f'your otp is {otp}',
